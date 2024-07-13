@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Resume</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh;
+      }
+      .container {
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 100%;
+        max-width: 800px;
+        box-shadow: 0 0 10px rgba(109, 62, 62, 0.1);
+      }
+      .top {
+        background-color: antiquewhite;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        flex-direction: column;
+        text-align: center;
+      }
+      .top img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        position: relative;
+        left: 230px;
+        top: 150px;
+      }
+      .top .tit {
+        font-size: 24px;
+        font-weight: bold;
+        text-shadow: 1px 1px red;
+      }
+      .top p {
+        font-size: 18px;
+        letter-spacing: 0px;
+        font-size: 18px;
+        font-family: "Courier New", Courier, monospace;
+        text-shadow: 0.5px 1px black;
+      }
+      .main {
+        display: flex;
+        padding: 20px;
+      }
+      .left,
+      .right {
+        padding: 20px;
+      }
+      .left {
+        width: 40%;
+      }
+      .right {
+        width: 60%;
+      }
+      .info i {
+        margin-right: 10px;
+      }
+      h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        text-shadow: 1px 1px 1px rgb(218, 38, 38);
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      .skills,
+      .projects,
+      .trainings,
+      .declaration {
+        margin-bottom: 20px;
+      }
+      hr {
+        box-shadow: 1px 1px 2px rgba(47, 26, 142);
+      }
+      .tit {
+        position: relative;
+        left: -150px;
+        letter-spacing: 5px;
+        bottom: 50px;
+      }
+      .j {
+        position: relative;
+        left: -250px;
+        letter-spacing: 7px;
+        bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <img src="./satish passport.jpeg" alt="Profile Picture" />
+        <div class="tit">SATISH MADHUNALA</div>
+        <p class="j">Web Developer</p>
+      </div>
+      <div class="main">
+        <div class="left">
+          <div class="info">
+            <p><i class="fa-solid fa-phone"></i> +91-63009284605</p>
+            <p>
+              <i class="fa-solid fa-envelope"></i> satishmadhunala03@gmail.com
+            </p>
+            <p><i class="fa-solid fa-location-dot"></i> Hyderabad, IN 500055</p>
+            <p>
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="http://www.linkedin.com/in/satishmadhunala"
+                >LinkedIn</a
+              >
+            </p>
+            <p>
+              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/satishmadhunala1">GitHub</a>
+            </p>
+          </div>
+          <hr />
+          <div class="education">
+            <h3>EDUCATION</h3>
+            <li>
+              <strong>MLRITM </strong>- BTech Computer Science and Engineering
+              (AIML), 2024
+            </li>
+            <li>
+              <strong>Sri Chaitanya Junior College</strong> - Board Of
+              Intermediate Education (MPC), 2020
+            </li>
+            <li><strong>Jawahar Model High School</strong>, 2018</li>
+          </div>
+          <hr />
+          <div class="skills">
+            <h3>TECHNICAL SKILLS</h3>
+            <li>Front End Technologies: HTML, CSS, JavaScript</li>
+            <li>Database: MySQL, SQL</li>
+            <li>Developer Tools: VS Code, Git, GitHub</li>
+            <li>Programming Languages: Python, Java (Basics)</li>
+          </div>
+          <hr />
+          <div class="projects">
+            <h3>PROJECTS</h3>
+            <li>
+              <strong
+                >Face Recognition Based Attendance Management System</strong
+              >
+              - PYTHON, OpenCV, TensorFlow/Keras
+              <p>
+                <strong>Description:</strong> The system is developed for
+                deploying an easy and secure way of taking down attendance. The
+                software captures an image of all the authorized persons and
+                stores the information in a database. The system then maps the
+                image into a face coordinate structure.
+              </p>
+            </li>
+          </div>
+        </div>
+        <hr />
+        <div class="right">
+          <div class="projects">
+            <h3>ADDITIONAL PROJECTS</h3>
+            <li>
+              <strong>Spam Mail Detection Using Machine Learning</strong> -
+              PYTHON, Pandas, NumPy
+              <p>
+                Spam mail detection using machine learning uses statistical
+                models to identify emails that are spam. The algorithms learn
+                from labeled email datasets to recognize patterns that indicate
+                spam and classify new emails automatically. The Multi-Layer
+                Perceptron (MLP) algorithm provides about 98% accuracy.
+              </p>
+            </li>
+            <hr />
+          </div>
+          <div class="trainings">
+            <h3>TRAININGS AND CERTIFICATIONS</h3>
+            <li>
+              Python -
+              <a
+                href="#"
+                >Link</a
+              >
+            </li>
+            <li>
+              AI & ML -
+              <a
+                href="#"
+                >Link</a
+              >
+            </li>
+            <li>
+              SQL -
+              <a href="#"
+                >Link</a
+              >
+            </li>
+            <li>
+              DSA Certificate -
+              <a href="#">Link</a>
+            </li>
+            <hr />
+          </div>
+          <div class="soft">
+            <h3>SOFT SKILLS</h3>
+            <li>COMMUNICATION</li>
+            <li>TEAMWORK</li>
+            <li>ADAPTABILITY</li>
+            <li>TIME MANAGEMENT</li>
+            <li>LEADERSHIP</li>
+            <hr />
+          </div>
+          <div class="declaration">
+            <h3>DECLARATION</h3>
+            <p>
+              I hereby declare that all the above information is true and
+              correct to the best of my knowledge. I bear the responsibility for
+              the correctness of the mentioned particulars.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

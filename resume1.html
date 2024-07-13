@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .resume-container {
+            display: flex;
+            width: 80%;
+            max-width: 100%;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            /* overflow: hidden; */
+            padding-top: 5px;
+        }
+        .left-column {
+            flex: 1.2;
+            background-color: #e0e0e0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .left-column img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .right-column {
+            flex: 2;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            /* align-items: ; */
+        }
+        .full-name {
+            font-size: 32px;
+            font-weight: 700;
+            margin: 0;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .section  li{
+            font-size: 14px;
+            line-height: 1.4;        
+        }
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #444;
+            margin-bottom: 10px;
+            text-align: cente;
+        }
+        .section-content {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+          
+        }
+        .section-project .section-content{
+            font-size: 20px;
+        }
+        .section-project li{
+            font-size: 13px;  
+            line-height: 1.4;
+        
+        }
+        .right-column .full-name{
+            line-height:0.8;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid blue;
+            width: 100%;
+            margin: 10px 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        img{
+            border: 2px solid;
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="left-column">
+            <img src="./satish passport.jpeg">
+            <div class="section">
+                <h2 class="section-title">CONTACT</h2>
+                <p class="section-content">
+                    Email: satishmadhunala03@gmail.com<br>
+                    Phone: 6309284605<br>
+                    Address: Hyderabad 500055
+                </p>
+            </div>
+            <hr>
+            <div class="section">
+                <h2 class="section-title">SKILLS</h2>
+                    <ul>
+                        <li><b>Languages:-</b> HTML, CSS, JavaScript</li>
+                        <li>Database: MySQL, SQL</li>
+                        <li>Developer Tools: VS Code, Git, GitHub</li>
+                        <li>Programming Languages: Python, Java (Basics)</li>
+                    </ul>
+            </div><hr>
+            <div class="section">
+                <h2 class="section-title">COMMUNICATION</h2>
+                <p class="section-content">
+                    I possess exceptional communication skills, enabling me to clearly and concisely convey complex information to diverse audiences. My strong interpersonal skills facilitate effective team collaboration and stakeholder engagement.
+                </p>
+            </div>
+            <hr>
+            <div class="section">
+                <h2 class="section-title">LEADERSHIP</h2>
+                <p class="section-content">
+                    During my college projects, I demonstrated strong leadership skills by effectively managing teams, coordinating tasks, and ensuring project milestones were met. My ability to motivate and guide team members fostered a collaborative environment that drove successful project outcomes. I excel in strategic planning and problem-solving, which were critical in navigating challenges and delivering high-quality results.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="right-column">
+            <p class="full-name">SATISH MADHUNALA</p>
+            
+            <hr>
+            <div class="section-project">
+                <h2 class="section-title">PROJECTS</h2>
+                <h3 class="section-content">Flight Delay Prediction using SVM</h3>
+                    <ul>
+                        <li>
+                            <b>Objective:</b> an SVM-based model to predict flight delays, aiming to enhance airline scheduling efficiency.</li>
+                            <li><b>Data and Features:</b> Aggregated and cleaned historical flight and weather data, engineered features such as flight duration, times, and weather conditions.</li>
+                            <li><b>Implementation:</b> Trained and validated an SVM model with optimized hyperparameters, achieving high accuracy and robust performance</li>
+                            <li><b>Deployment and Visualization:</b>Deployed the model via a Flask web interface for real-time predictions, and created visualizations for data insights</li>
+                            <!-- <li><b>Accuracy and Performance:</b> Achieved a high prediction accuracy of nearly 80%, demonstrating the model’s reliability in real-world scenarios.</li> -->
+                    </ul>
+                <h3 class="section-content">Iris Recognition using Image Processing</h3>
+                <ul>
+                    <li>
+                        <b>Developed and implemented:</b> Iris recognition system using image processing techniques, to enhance biometric authentication accuracy and security.</li>
+                        <li><b>Technical Skills:</b>Proficient in Python, MATLAB, OpenCV, NumPy, and SciPy for developing and optimizing image processing algorithms.</li>
+                        <li><b>Methodology:</b> Captured and preprocessed iris images, implemented feature extraction algorithms, and evaluated system performance metrics to ensure robustness</li>
+                        <li><b>System Integration: </b>Integrated the system into security frameworks for access control applications, significantly enhancing organizational security measures.</li>
+                        <!-- <li><b>Impact:</b> Contributed to improved security and user authentication processes through the development of a reliable iris recognition system.</li> -->
+                </ul>
+                   
+            </div>
+            <hr>
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <p class="section-content">
+                    <strong>Bachelor of Technology in Computer Science(CSE)</strong><br>
+                    -Marri Laxman Reddy Institute Of Technology and Management,<br><b>CGPA:- 8.0</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     2020-2024<br><br>
+                    </p>
+                <hr>
+                <div class="section">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-content">
+                    <b>JAVA:-</b>Java Programmer Certification, earned from HackerRank <a href="">link</a><br>
+                    <b>DSA:-</b>Data Structures and Algorithms Certification, completed through Smartinterviews <a href="">link</a><br>
+                    <b>SQL:-</b>SQl Certification, Obtained from SkillUp <a href="">link</a>
+                        </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
